@@ -66,3 +66,5 @@ document.getElementById("getWeather").addEventListener("click", async () => {
 
   weatherDiv.innerHTML = currentHTML + forecastHTML;
 });
+
+document.getElementById("year").textContent = new Date().getFullYear();
